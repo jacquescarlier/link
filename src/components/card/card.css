@@ -1,0 +1,30 @@
+/*.araccourci img {
+height: 100px;
+width: 100px;
+}*/
+.card-style {
+  display: flex;
+  flex-wrap: wrap; /* Passe à la ligne si trop d'éléments */
+  justify-content: center; /* Centre les cards */
+  gap: 30px; /* Espacement entre les cards */
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column; /* Titre en dessous de l’image */
+  align-items: center; /* Centre l’image et le texte */
+  text-align: center;
+  width: 100px; /* Ajuste selon la taille souhaitée */
+}
+
+.card-container img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.card-container span {
+  margin-top: 8px;
+  font-weight: 500;
+  color: black;
+}
