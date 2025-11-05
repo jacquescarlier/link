@@ -10,9 +10,10 @@
 .header:hover {
   opacity: 0.65;
 }
-
-/*#cdbdcd*/
-p,
+p {
+  font-size: 3em;
+  color: chocolate;
+}
 .navigation span {
   color: black;
   font-family: "Permanent Marker", cursive;

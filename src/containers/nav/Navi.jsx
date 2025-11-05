@@ -1,10 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./navi.css";
 
 const Navi = () => {
+    const [showText, setShowText] = useState(false);
+
     return (
         <div className='header'>
-            <h1>L1nk 4Ne1</h1>
+            <h1
+                onMouseEnter={() => setShowText(true)}
+                onMouseLeave={() => setShowText(false)}
+                style={{ cursor: "pointer" }}
+
+            >
+                L1nk 4Ne1
+            </h1>
+              {showText && <p>copyright© JCR & P1t</p>}
             <div className='navigation'>
                 <span>Moteurs de recherche</span>
                 <ul className="socialMediaLinks">
