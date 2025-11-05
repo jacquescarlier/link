@@ -231,7 +231,7 @@ export const raccourcisPresses = [
     {
         "id": "P1235",
         "title": "CowCotland",
-        "cover": ".presses/cowcotland.jpeg",
+        "cover": "./presses/cowcotland.jpeg",
         "altText": "CowCotland",
         "link": "https://www.cowcotland.com/"
     },

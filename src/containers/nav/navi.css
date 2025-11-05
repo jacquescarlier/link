@@ -22,13 +22,15 @@ p,
 
 h1 {
   color: black;
+  margin: 0;
 }
-
 ul {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
   gap: 2em;
+  margin: 0;
+  padding-top: 10px;
 }
 
 li {
@@ -64,8 +66,8 @@ li {
   }
 
   .header {
-    /* margin: 0;*/
-    margin-bottom: 1em;
+     margin: 0;
+   /* margin-bottom: 0em;*/
     justify-content: space-betweenr;
     align-items: center;
   }
