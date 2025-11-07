@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Navi />
-      <section className="svodSection">
+      <section>
         <h2>SVOD & TV </h2>
         <Card raccourcis={raccourcisSvod} />
       </section>
