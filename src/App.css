@@ -9,9 +9,11 @@
 }
 
 h2 {
-  color: #AFAFAF;
+  color: #F54927;
   text-align: left;
   margin-left: 50px;
+  text-decoration: underline;
+  text-decoration-color: #F54927;
 }
 section {
   padding-top: 10px;
