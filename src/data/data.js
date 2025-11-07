@@ -309,7 +309,7 @@ export const raccourcisDivers = [
     },
     {
         "id": "D1236",
-        "title": "SpeedTestf",
+        "title": "SpeedTest",
         "cover": "./divers/speedtest.png",
         "altText": "SpeedTest",
         "link": "https://www.speedtest.net/fr"
