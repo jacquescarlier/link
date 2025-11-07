@@ -12,12 +12,16 @@
   align-items: center; /* Centre l’image et le texte */
   text-align: center;
   width: 100px; /* Ajuste selon la taille souhaitée */
+  height: 80px;
 }
 
 .card-container img {
   width: 50px;
   height: 50px;
   object-fit: cover;
+  padding: 10px;
+  border-radius: 10px;
+  background-color:#3D3C48 ;
 }
 
 .card-container span {

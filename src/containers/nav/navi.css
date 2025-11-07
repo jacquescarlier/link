@@ -1,5 +1,5 @@
 .header {
-  height: 150px;
+  height: 100px;
   width: 100%;
   top: 0;
   display: flex;
@@ -15,14 +15,14 @@ p {
   color: chocolate;
 }
 .navigation span {
-  color: black;
+  color: ;
   font-family: "Permanent Marker", cursive;
   font-size: 1.5em;
   font-weight: 900;
 }
 
 h1 {
-  color: black;
+  color: #F8F8FF;
   margin: 0;
 }
 ul {
