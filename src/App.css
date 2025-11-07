@@ -14,6 +14,7 @@ h2 {
   margin-left: 50px;
   text-decoration: underline;
   text-decoration-color: #F54927;
+  text-decoration-thickness: 2px;
 }
 section {
   padding-top: 10px;
