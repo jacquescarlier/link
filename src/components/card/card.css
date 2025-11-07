@@ -1,7 +1,4 @@
-/*.araccourci img {
-height: 100px;
-width: 100px;
-}*/
+
 .card-style {
   display: flex;
   flex-wrap: wrap; /* Passe à la ligne si trop d'éléments */
@@ -26,5 +23,6 @@ width: 100px;
 .card-container span {
   margin-top: 8px;
   font-weight: 500;
-  color: black;
+  color: white;
+  font-size: 12px;
 }
