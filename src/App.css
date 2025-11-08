@@ -19,3 +19,11 @@ h2 {
 section {
   padding-top: 10px;
 }
+footer {
+  margin-top: 30px;
+}
+footer span {
+  text-align: right;
+  color: #F54927;
+  font-size: 12px;
+}

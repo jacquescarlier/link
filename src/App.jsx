@@ -29,7 +29,11 @@ function App() {
         <h2>Divers</h2>
         <Card raccourcis={raccourcisDivers} />
       </section>
-
+      <footer>
+        <span>
+          copyright© JCR & P1t
+        </span>
+      </footer>
     </>
   )
 }

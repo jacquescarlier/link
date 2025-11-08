@@ -122,7 +122,7 @@ export const raccourcisSvod = [
         "title": "Disney",
         "cover": "./svod/disney-icon.webp",
         "altText": "Disney",
-        "link": "https://www.viki.com/?locale=fr"
+        "link": "https://www.disneyplus.com/fr-fr"
     },
 ]
 
