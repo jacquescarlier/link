@@ -3,7 +3,7 @@
   display: flex;
   flex-wrap: wrap; /* Passe à la ligne si trop d'éléments */
   justify-content: center; /* Centre les cards */
-  gap: 30px; /* Espacement entre les cards */
+  gap: 18px; /* Espacement entre les cards */
 }
 
 .card-container {

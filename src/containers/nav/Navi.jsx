@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import "./navi.css";
+import Card from '../../components/card/Card';
+import { raccourcisWarez } from '../../data/data';
 
 const Navi = () => {
     const [showText, setShowText] = useState(false);
@@ -10,10 +12,10 @@ const Navi = () => {
                 onMouseEnter={() => setShowText(true)}
                 onMouseLeave={() => setShowText(false)}
                 style={{ cursor: "pointer" }}
-
             >
                 L1nk 4Ne1
             </h1>
+            <Card raccourcis={raccourcisWarez} />
               {showText && <p>copyright© JCR & P1t</p>}
             <div className='navigation'>
                 <span>Moteurs de recherche</span>

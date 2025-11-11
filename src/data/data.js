@@ -342,11 +342,28 @@ export const raccourcisDivers = [
         "altText": "Internet Archive",
         "link": "https://archive.org/search?query=creator%3A%22Kate+Bush%22"
     },
-{
+    {
         "id": "D1241",
         "title": "Archives d'Anna",
         "cover": "./divers/archivesdanna.webp",
         "altText": "Archives d'Anna",
         "link": "https://fr.annas-archive.org/"
     },
+]
+export const raccourcisWarez = [
+    {
+        "id": "W1231",
+        "title": "Wawa",
+        "cover": "./warez/wawa.jpg",
+        "altText": "Wawacity",
+        "link": "https://www.wawacity.irish/"
+    },
+    {
+        "id": "W1232",
+        "title": "Zt",
+        "cover": "./warez/zt.png",
+        "altText": "zone-téléchargement",
+        "link": "https://www.zone-telechargement.irish/"
+    },
+
 ]
