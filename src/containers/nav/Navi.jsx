@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import "./navi.css";
-import Card from '../../components/card/Card';
-import { raccourcisWarez } from '../../data/data';
 
 const Navi = () => {
     const [showText, setShowText] = useState(false);
@@ -13,10 +11,11 @@ const Navi = () => {
                 onMouseLeave={() => setShowText(false)}
                 style={{ cursor: "pointer" }}
             >
-                L1nk 4Ne1
+                <a href="https://www.zone-telechargement.irish/" target="_blank" rel="noopener noreferrer">
+                    L1nk 4Ne1
+                </a>
             </h1>
-            <Card raccourcis={raccourcisWarez} />
-              {showText && <p>copyright© JCR & P1t</p>}
+            {showText && <p>copyright© JCR & P1t</p>}
             <div className='navigation'>
                 <span>Moteurs de recherche</span>
                 <ul className="socialMediaLinks">
