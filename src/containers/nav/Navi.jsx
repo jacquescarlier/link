@@ -11,11 +11,17 @@ const Navi = () => {
                 onMouseLeave={() => setShowText(false)}
                 style={{ cursor: "pointer" }}
             >
-                <a href="https://www.zone-telechargement.irish/" target="_blank" rel="noopener noreferrer">
+                <a
+                    href="https://www.zone-telechargement.irish/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ display: "inline-block" }}
+                >
                     L1nk 4Ne1
                 </a>
             </h1>
-            {showText && <p>copyright© JCR & P1t</p>}
+
+            {showText && <p className='welcome-text'>WELCOME</p>}
             <div className='navigation'>
                 <span>Moteurs de recherche</span>
                 <ul className="socialMediaLinks">

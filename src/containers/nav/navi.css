@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
 .header {
   height: 100px;
   width: 100%;
@@ -10,21 +12,45 @@
 .header:hover {
   opacity: 0.65;
 }
-p {
+
+.welcome-text {
   font-size: 3em;
-  color: chocolate;
+  color: white;
+  font-Family: "'UnifrakturMaguntia', cursive",
 }
+
 .navigation span {
   color: #F8F8FF;
-  font-family: "Permanent Marker", cursive;
+
   font-size: 1.5em;
   font-weight: 900;
+}
+
+@keyframes spinAndZoom {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+
+  50% {
+    transform: rotate(720deg) scale(2);
+  }
+
+  100% {
+    transform: rotate(720deg) scale(1);
+  }
 }
 
 h1 {
   color: #F8F8FF;
   margin: 0;
+  display: inline-block;
+  transition: transform 0.3s ease;
 }
+
+h1:hover {
+  animation: spinAndZoom 1s ease-in-out;
+}
+
 ul {
   display: flex;
   flex-flow: row nowrap;
@@ -67,18 +93,14 @@ li {
   }
 
   .header {
-     margin: 0;
-   /* margin-bottom: 0em;*/
+    margin: 0;
     justify-content: space-betweenr;
     align-items: center;
   }
 }
 
 @media only screen and (max-width: 560px) {
-
-  /* h1 { display: none;}*/
   .header {
-    /* margin: 0 ;*/
     flex-direction: column;
     justify-content: center;
     align-items: center;
