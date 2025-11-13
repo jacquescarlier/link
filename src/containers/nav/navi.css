@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
 
 .header {
   height: 100px;
@@ -16,7 +16,6 @@
 .welcome-text {
   font-size: 3em;
   color: white;
-  font-Family: "'UnifrakturMaguntia', cursive",
 }
 
 .navigation span {

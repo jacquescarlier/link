@@ -1,17 +1,22 @@
-
 .card-style {
   display: flex;
-  flex-wrap: wrap; /* Passe à la ligne si trop d'éléments */
-  justify-content: center; /* Centre les cards */
-  gap: 18px; /* Espacement entre les cards */
+  flex-wrap: wrap;
+  /* Passe à la ligne si trop d'éléments */
+  justify-content: center;
+  /* Centre les cards */
+  gap: 18px;
+  /* Espacement entre les cards */
 }
 
 .card-container {
   display: flex;
-  flex-direction: column; /* Titre en dessous de l’image */
-  align-items: center; /* Centre l’image et le texte */
+  flex-direction: column;
+  /* Titre en dessous de l’image */
+  align-items: center;
+  /* Centre l’image et le texte */
   text-align: center;
-  width: 100px; /* Ajuste selon la taille souhaitée */
+  width: 100px;
+  /* Ajuste selon la taille souhaitée */
   height: 80px;
 }
 
@@ -21,12 +26,18 @@
   object-fit: cover;
   padding: 10px;
   border-radius: 10px;
-  background-color:#3D3C48 ;
+  background-color: #3D3C48;
+  transition: transform 0.4s ease;
+}
+
+.card-container img:hover {
+  transform: scale(3);
+  transform-origin: center;
 }
 
 .card-container span {
   margin-top: 8px;
   font-weight: 500;
-  color:  #2784F5;
+  color: #2784F5;
   font-size: 14px;
 }
