@@ -7,7 +7,7 @@ function App() {
 
 
   return (
-    <>
+    <div className="parallax">
       <Navi />
       <section>
         <h2>SVOD & TV </h2>
@@ -34,7 +34,7 @@ function App() {
           copyright© JCR & P1t
         </span>
       </footer>
-    </>
+    </div>
   )
 }
 

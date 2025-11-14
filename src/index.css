@@ -19,6 +19,16 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+.parallax {
+      background-image: url("/jiji-cat.webp");
+     
+      height: 100%;
+
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
 
 h1 {
   font-size: 3.2em;
