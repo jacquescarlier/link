@@ -2,8 +2,8 @@
   font-family: sans-serif, Fruktur;
   line-height: 1.5;
   font-weight: 400;
-  color: #646cff;
   text-decoration: inherit;
+  padding: 0;
 }
 p {
   font-family: Fruktur;
@@ -13,6 +13,7 @@ a:hover {
 }
 
 body {
+  padding: 0;
   margin: 0;
   display: flex;
   place-items: center;
@@ -21,20 +22,19 @@ body {
 }
 .parallax {
       background-image: url("/jiji-cat.webp");
-     
       height: 100%;
-
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+      padding: 5px 10px;
     }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-
+/*
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -52,12 +52,13 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-
+}*/
+/*
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #e9edf0;
     background-color: #ffffff;
+    padding: 0;
   }
   a:hover {
     color: #747bff;
@@ -66,3 +67,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+*/
