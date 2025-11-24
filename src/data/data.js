@@ -367,3 +367,49 @@ export const raccourcisWarez = [
     },
 
 ]
+
+export const moteursRecherche = [
+    {
+         "id": "MR1231",
+        "title": "Google",
+        "cover": "./logo/google.webp",
+        "altText": "logo Google",
+        "link": "https://www.google.fr",
+         "arialLabel": "lien vers Google"
+    },
+      {
+         "id": "MR1232",
+        "title": "DuckDuckGo",
+        "cover": "./logo/duckduckgo.webp",
+        "altText": "logo DuckDuckGo",
+        "link": "https://duckduckgo.com/?utm_source=bdmtools&utm_medium=siteweb&utm_campaign=duckduckgo",
+         "arialLabel": "lien vers DucDuckGo"
+    },
+      {
+         "id": "MR1233",
+        "title": "Qwant",
+        "cover": "./logo/qwant.webp",
+        "altText": "logo Qwant",
+        "link": "https://www.qwant.com/?l=fr",
+         "arialLabel": "lien vers Qwant"
+    },
+      {
+         "id": "MR1234",
+        "title": "Bing",
+        "cover": "./logo/bing.webp",
+        "altText": "logo Qwant",
+        "link": "https://www.bing.com/",
+         "arialLabel": "lien vers Bing"
+    },
+    {
+         "id": "MR1235",
+        "title": "StartPage",
+        "cover": "./logo/startpage.webp",
+        "altText": "logo Startpage",
+        "link": "https://www.startpage.com/",
+        "arialLabel": "lien vers Startpage"
+    },
+]
+
+                   
+              

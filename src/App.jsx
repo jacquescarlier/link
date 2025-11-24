@@ -1,12 +1,12 @@
 import Card from "./components/card/Card"
 import { raccourcisSvod, raccourcisLinux, raccourcisAstuces, raccourcisPresses, raccourcisDivers } from "./data/data";
 import "./App.css"
-import Navi from "./containers/nav/Navi";
+import Head from "./containers/nav/Header";
 
 function App() {
   return (
     <div className="parallax">
-      <Navi />
+      <Head />
       <main>
         <section>
           <h2>SVOD & TV </h2>
