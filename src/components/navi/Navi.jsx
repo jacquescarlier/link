@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-
+import React from 'react';
 
 const Navi = ({ moteursRecherche, spanNavi, divNavi, ulNavi }) => {
 
@@ -14,6 +13,5 @@ const Navi = ({ moteursRecherche, spanNavi, divNavi, ulNavi }) => {
         </div>
     )
 };
-
 export default Navi;
 
