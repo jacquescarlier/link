@@ -22,7 +22,7 @@ const Header = () => {
                 </a>
             </h1>
             {showText && <p className='welcome-text'>WELCOME</p>}
-            <div className='navigation'>
+            <div>
                 <Navi moteursRecherche={moteursRecherche} spanNavi={spanNavi} divNavi={"navigation"} ulNavi={"socialMediaLinks"} />
             </div>
         </div>
