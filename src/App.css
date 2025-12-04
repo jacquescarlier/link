@@ -2,10 +2,16 @@
   max-width: 1900px;
   width: 100%;
   height: 100%;
-  margin: 0 ;
+  margin: 0;
+  padding: 0;
   text-align: center;
   background-color: #2B2A33;
+  font-family: sans-serif, Fruktur;
+  line-height: 1.5;
+  font-weight: 400;
+  text-decoration: inherit;
 }
+
 h2 {
   color: #F54927;
   text-align: left;
@@ -14,12 +20,15 @@ h2 {
   text-decoration-color: #F54927;
   text-decoration-thickness: 2px;
 }
+
 section {
   padding-top: 10px;
 }
+
 footer {
   margin-top: 30px;
 }
+
 footer span {
   text-align: right;
   color: #F54927;
