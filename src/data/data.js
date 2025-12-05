@@ -365,9 +365,72 @@ export const raccourcisWarez = [
         "altText": "zone-téléchargement",
         "link": "https://www.zone-telechargement.irish/"
     },
-
 ]
-
+export const achatsInfo =[
+    {
+        id: "LShop009",
+        title: "GrosBill",
+        cover: "./achats_info/grosbill.webp",
+        link: "https://www.grosbill.com/",
+        altText: "GosBill",
+    },
+    {
+		title: "Cybertek",
+		link: "https://www.cybertek.fr/boutique/index.aspx",
+        cover: "./achats_info/cyberteck.webp",
+		id: "LShop001",
+		altText: "CyberTek, Spécialisé dans la commercialisation de matériel informatique et high-tech"
+	},
+	{
+		title: "LDLC",
+		link: "https://www.ldlc.com/",
+         cover: "./achats_info/ldlc.webp",
+		id: "LShop002",
+		altText:"LDLC, Informatique et high-tech depuis 1996. Tous nos produits sont garantis 3 ans au lieu de 2."
+	},
+	{
+		title: "Rue-Montgallet",
+		link: "https://www.rue-montgallet.com/",
+         cover: "./achats_info/montgallet.webp",
+		id: "LShop003",
+		altText:"Rue-montgallet.com réunit depuis 1999 l'ensemble des boutiques physiques du quartier de la rue Montgallet et rue Charenton à Paris 12ème. Le quartier Parisien ..."
+	},
+	{
+		title: "PCcomponentes",
+		link: "https://www.pccomponentes.com/",
+         cover: "./achats_info/pccomponentes.webp",
+		id: "LShop004",
+		altText:"PcComponentes, Informatique, électronique, technologie au meilleur prix, qualité et service. PcComponentes est votre principale boutique en ligne pour téléphones portables, ordinateurs, tablettes et bien plus encore."
+	},
+	{
+		title: "MemoryPc",
+		link: "https://www.memorypc.de/fr/",
+         cover: "./achats_info/memorypc.webp",
+		id: "LShop005",
+		altText:"MemoryPc, vente de pc et de matériel informatique"
+	},
+	{
+		title: "Flowup",
+		link: "https://www.flowup.shop/",
+         cover: "./achats_info/flowup.webp",
+		id: "LShop006",
+		altText: "FlowUp, Découvrez les meilleurs PC gamer aux meilleurs prix, incluant les RTX NVIDIA pour une expérience gaming ultime. Trouvez votre ordinateur de jeu idéal, ."
+	},
+	{
+		title: "Amazon",
+		link: "https://www.amazon.fr/",
+         cover: "./achats_info/amazon.webp",
+		id: "LShop007",
+		altText:"Amazon, Achat et vente en ligne parmi des millions de produits en stock"
+	},
+	{
+		title: "TopAchat",
+		link: "https://www.topachat.com/accueil/index.php",
+         cover: "./achats_info/topachat.webp",
+		id: "LShop008",
+		altText:"TopAchat, PC gamer, Ordinateur portable, Composants, Cartes Graphiques, Périphériques gamers etc. : Ton Setup Sur Mesure."
+	},
+]
 export const moteursRecherche = [
     {
          "id": "MR1231",
