@@ -430,6 +430,13 @@ export const achatsInfo =[
 		id: "LShop008",
 		altText:"TopAchat, PC gamer, Ordinateur portable, Composants, Cartes Graphiques, Périphériques gamers etc. : Ton Setup Sur Mesure."
 	},
+    {
+		title: "reichelt",
+		link: "https://www.reichelt.com/fr/fr/",
+         cover: "./reichelt.webp",
+		id: "LShop011",
+		altText:"reichelt"
+	},
 ]
 export const moteursRecherche = [
     {
