@@ -78,7 +78,7 @@ li {
   }
   .header {
     margin: 0;
-    justify-content: space-betweenr;
+    justify-content: space-between;
     align-items: center;
   }
 }
