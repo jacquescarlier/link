@@ -8,8 +8,24 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="projet pour rassembler tous les liens vers des sites utiles" />
-  <link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
 
+  <!-- Amélioration du LCP : Google Fonts optimisé -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Précharge la feuille de style sans bloquer le rendu -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" as="style">
+
+  <!-- Chargement non bloquant du CSS des fonts -->
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap"
+        media="print"
+        onload="this.media='all'">
+
+  <!-- Fallback si JS est désactivé -->
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap">
+  </noscript>
 </head>
 
 <body>
