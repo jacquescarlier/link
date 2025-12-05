@@ -433,7 +433,7 @@ export const achatsInfo =[
     {
 		title: "reichelt",
 		link: "https://www.reichelt.com/fr/fr/",
-         cover: "./reichelt.webp",
+         cover: "./achats_info/reichelt.webp",
 		id: "LShop011",
 		altText:"reichelt"
 	},
