@@ -349,6 +349,15 @@ export const raccourcisDivers = [
         "altText": "Archives d'Anna",
         "link": "https://fr.annas-archive.org/"
     },
+ {
+        "id": "D1242",
+        "title": "Scribens",
+        "cover": "./divers/scribens.png",
+        "altText": "Scribens",
+        "link": "https://www.scribens.fr/"
+    },
+
+
 ]
 export const raccourcisWarez = [
     {
