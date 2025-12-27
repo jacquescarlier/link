@@ -1,5 +1,5 @@
 import Card from "./components/card/Card"
-import { raccourcisSvod, raccourcisLinux, raccourcisAstuces, raccourcisPresses, raccourcisDivers, achatsInfo } from "./data/data";
+import { raccourcisSvod, raccourcisLinux, raccourcisAstuces, raccourcisPresses, raccourcisDivers, achatsInfo, raccourcisDev  } from "./data/data";
 import "./App.css"
 import Head from "./containers/nav/Header";
 
@@ -31,6 +31,10 @@ function App() {
         <section>
           <h2>Divers</h2>
           <Card raccourcis={raccourcisDivers} />
+        </section>
+         <section>
+          <h2>Développement</h2>
+          <Card raccourcis={raccourcisDev} />
         </section>
       </main>
       <footer>

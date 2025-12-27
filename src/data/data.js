@@ -163,20 +163,6 @@ export const raccourcisAstuces = [
         "link": "https://www.justgeek.fr/"
     },
     {
-        "id": "A1236",
-        "title": "Developpez.com",
-        "cover": "./astuces/developpezcom.webp",
-        "altText": "Developpez.com",
-        "link": "https://www.developpez.com/"
-    },
-    {
-        "id": "A1237",
-        "title": "Stack_Overflow",
-        "cover": "./astuces/stackoverflow.webp",
-        "altText": "Stack_OverFlow",
-        "link": "https://stackoverflow.com/questions"
-    },
-    {
         "id": "A1238",
         "title": "ChatGPT",
         "cover": "./astuces/chatgpt.webp",
@@ -280,27 +266,6 @@ export const raccourcisDivers = [
         "link": "https://fr.wikipedia.org/wiki/Wiki"
     },
     {
-        "id": "D1232",
-        "title": "Github",
-        "cover": "./divers/github.webp",
-        "altText": "Github",
-        "link": "https://github.com/"
-    },
-    {
-        "id": "D1233",
-        "title": "Netlify",
-        "cover": "./divers/netlify.webp",
-        "altText": "Netlify",
-        "link": "https://app.netlify.com/teams/jacquescarlier/projects"
-    },
-    {
-        "id": "D1234",
-        "title": "Vercel",
-        "cover": "./divers/vercel.webp",
-        "altText": "Vercel",
-        "link": "https://vercel.com/"
-    },
-    {
         "id": "D1235",
         "title": "Nperf",
         "cover": "./divers/nperf.webp",
@@ -349,10 +314,10 @@ export const raccourcisDivers = [
         "altText": "Archives d'Anna",
         "link": "https://fr.annas-archive.org/"
     },
- {
+    {
         "id": "D1242",
         "title": "Scribens",
-        "cover": "./divers/scribens.png",
+        "cover": "./divers/scribens.webp",
         "altText": "Scribens",
         "link": "https://www.scribens.fr/"
     },
@@ -375,7 +340,59 @@ export const raccourcisWarez = [
         "link": "https://www.zone-telechargement.irish/"
     },
 ]
-export const achatsInfo =[
+export const raccourcisDev = [
+    {
+        "id": "Dev1231",
+        "title": "Vercel",
+        "cover": "./divers/vercel.webp",
+        "altText": "Vercel",
+        "link": "https://vercel.com/"
+    },
+    {
+        "id": "Dev1232",
+        "title": "Netlify",
+        "cover": "./divers/netlify.webp",
+        "altText": "Netlify",
+        "link": "https://app.netlify.com/teams/jacquescarlier/projects"
+    },
+    {
+        "id": "Dev1233",
+        "title": "Github",
+        "cover": "./divers/github.webp",
+        "altText": "Github",
+        "link": "https://github.com/"
+    },
+    {
+        "id": "Dev1234",
+        "title": "Developpez.com",
+        "cover": "./astuces/developpezcom.webp",
+        "altText": "Developpez.com",
+        "link": "https://www.developpez.com/"
+    },
+    {
+        "id": "Dev1235",
+        "title": "Stack_Overflow",
+        "cover": "./astuces/stackoverflow.webp",
+        "altText": "Stack_OverFlow",
+        "link": "https://stackoverflow.com/questions"
+    },
+     {
+        "id": "Dev1236",
+        "title": "Grafikart",
+        "cover": "./divers/grafikart.webp",
+        "altText": "Grafikart",
+        "link": "https://grafikart.fr/tutoriels"
+    },
+    {
+        "id": "Dev1237",
+        "title": "JS_tester",
+        "cover": "./divers/js.webp",
+        "altText": "JS_tester",
+        "link": "https://www.webtoolkitonline.com/javascript-tester.html"
+    },
+]
+
+export const achatsInfo = [
     {
         id: "LShop009",
         title: "GrosBill",
@@ -384,104 +401,104 @@ export const achatsInfo =[
         altText: "GosBill",
     },
     {
-		title: "Cybertek",
-		link: "https://www.cybertek.fr/boutique/index.aspx",
+        title: "Cybertek",
+        link: "https://www.cybertek.fr/boutique/index.aspx",
         cover: "./achats_info/cyberteck.webp",
-		id: "LShop001",
-		altText: "CyberTek, Spécialisé dans la commercialisation de matériel informatique et high-tech"
-	},
-	{
-		title: "LDLC",
-		link: "https://www.ldlc.com/",
-         cover: "./achats_info/ldlc.webp",
-		id: "LShop002",
-		altText:"LDLC, Informatique et high-tech depuis 1996. Tous nos produits sont garantis 3 ans au lieu de 2."
-	},
-	{
-		title: "Rue-Montgallet",
-		link: "https://www.rue-montgallet.com/",
-         cover: "./achats_info/montgallet.webp",
-		id: "LShop003",
-		altText:"Rue-montgallet.com réunit depuis 1999 l'ensemble des boutiques physiques du quartier de la rue Montgallet et rue Charenton à Paris 12ème. Le quartier Parisien ..."
-	},
-	{
-		title: "PCcomponentes",
-		link: "https://www.pccomponentes.com/",
-         cover: "./achats_info/pccomponentes.webp",
-		id: "LShop004",
-		altText:"PcComponentes, Informatique, électronique, technologie au meilleur prix, qualité et service. PcComponentes est votre principale boutique en ligne pour téléphones portables, ordinateurs, tablettes et bien plus encore."
-	},
-	{
-		title: "MemoryPc",
-		link: "https://www.memorypc.de/fr/",
-         cover: "./achats_info/memorypc.webp",
-		id: "LShop005",
-		altText:"MemoryPc, vente de pc et de matériel informatique"
-	},
-	{
-		title: "Flowup",
-		link: "https://www.flowup.shop/",
-         cover: "./achats_info/flowup.webp",
-		id: "LShop006",
-		altText: "FlowUp, Découvrez les meilleurs PC gamer aux meilleurs prix, incluant les RTX NVIDIA pour une expérience gaming ultime. Trouvez votre ordinateur de jeu idéal, ."
-	},
-	{
-		title: "Amazon",
-		link: "https://www.amazon.fr/",
-         cover: "./achats_info/amazon.webp",
-		id: "LShop007",
-		altText:"Amazon, Achat et vente en ligne parmi des millions de produits en stock"
-	},
-	{
-		title: "TopAchat",
-		link: "https://www.topachat.com/accueil/index.php",
-         cover: "./achats_info/topachat.webp",
-		id: "LShop008",
-		altText:"TopAchat, PC gamer, Ordinateur portable, Composants, Cartes Graphiques, Périphériques gamers etc. : Ton Setup Sur Mesure."
-	},
+        id: "LShop001",
+        altText: "CyberTek, Spécialisé dans la commercialisation de matériel informatique et high-tech"
+    },
     {
-		title: "reichelt",
-		link: "https://www.reichelt.com/fr/fr/",
-         cover: "./achats_info/reichelt.webp",
-		id: "LShop011",
-		altText:"reichelt"
-	},
+        title: "LDLC",
+        link: "https://www.ldlc.com/",
+        cover: "./achats_info/ldlc.webp",
+        id: "LShop002",
+        altText: "LDLC, Informatique et high-tech depuis 1996. Tous nos produits sont garantis 3 ans au lieu de 2."
+    },
+    {
+        title: "Rue-Montgallet",
+        link: "https://www.rue-montgallet.com/",
+        cover: "./achats_info/montgallet.webp",
+        id: "LShop003",
+        altText: "Rue-montgallet.com réunit depuis 1999 l'ensemble des boutiques physiques du quartier de la rue Montgallet et rue Charenton à Paris 12ème. Le quartier Parisien ..."
+    },
+    {
+        title: "PCcomponentes",
+        link: "https://www.pccomponentes.com/",
+        cover: "./achats_info/pccomponentes.webp",
+        id: "LShop004",
+        altText: "PcComponentes, Informatique, électronique, technologie au meilleur prix, qualité et service. PcComponentes est votre principale boutique en ligne pour téléphones portables, ordinateurs, tablettes et bien plus encore."
+    },
+    {
+        title: "MemoryPc",
+        link: "https://www.memorypc.de/fr/",
+        cover: "./achats_info/memorypc.webp",
+        id: "LShop005",
+        altText: "MemoryPc, vente de pc et de matériel informatique"
+    },
+    {
+        title: "Flowup",
+        link: "https://www.flowup.shop/",
+        cover: "./achats_info/flowup.webp",
+        id: "LShop006",
+        altText: "FlowUp, Découvrez les meilleurs PC gamer aux meilleurs prix, incluant les RTX NVIDIA pour une expérience gaming ultime. Trouvez votre ordinateur de jeu idéal, ."
+    },
+    {
+        title: "Amazon",
+        link: "https://www.amazon.fr/",
+        cover: "./achats_info/amazon.webp",
+        id: "LShop007",
+        altText: "Amazon, Achat et vente en ligne parmi des millions de produits en stock"
+    },
+    {
+        title: "TopAchat",
+        link: "https://www.topachat.com/accueil/index.php",
+        cover: "./achats_info/topachat.webp",
+        id: "LShop008",
+        altText: "TopAchat, PC gamer, Ordinateur portable, Composants, Cartes Graphiques, Périphériques gamers etc. : Ton Setup Sur Mesure."
+    },
+    {
+        title: "reichelt",
+        link: "https://www.reichelt.com/fr/fr/",
+        cover: "./achats_info/reichelt.webp",
+        id: "LShop011",
+        altText: "reichelt"
+    },
 ]
 export const moteursRecherche = [
     {
-         "id": "MR1231",
+        "id": "MR1231",
         "title": "Google",
         "cover": "./logo/google.webp",
         "altText": "logo Google",
         "link": "https://www.google.fr",
-         "arialLabel": "lien vers Google"
+        "arialLabel": "lien vers Google"
     },
-      {
-         "id": "MR1232",
+    {
+        "id": "MR1232",
         "title": "DuckDuckGo",
         "cover": "./logo/duckduckgo.webp",
         "altText": "logo DuckDuckGo",
         "link": "https://duckduckgo.com/?utm_source=bdmtools&utm_medium=siteweb&utm_campaign=duckduckgo",
-         "arialLabel": "lien vers DucDuckGo"
+        "arialLabel": "lien vers DucDuckGo"
     },
-      {
-         "id": "MR1233",
+    {
+        "id": "MR1233",
         "title": "Qwant",
         "cover": "./logo/qwant.webp",
         "altText": "logo Qwant",
         "link": "https://www.qwant.com/?l=fr",
-         "arialLabel": "lien vers Qwant"
+        "arialLabel": "lien vers Qwant"
     },
-      {
-         "id": "MR1234",
+    {
+        "id": "MR1234",
         "title": "Bing",
         "cover": "./logo/bing.webp",
         "altText": "logo Qwant",
         "link": "https://www.bing.com/",
-         "arialLabel": "lien vers Bing"
+        "arialLabel": "lien vers Bing"
     },
     {
-         "id": "MR1235",
+        "id": "MR1235",
         "title": "StartPage",
         "cover": "./logo/startpage.webp",
         "altText": "logo Startpage",
@@ -490,5 +507,4 @@ export const moteursRecherche = [
     },
 ]
 
-                   
-              
+
