@@ -339,6 +339,13 @@ export const raccourcisWarez = [
         "altText": "zone-téléchargement",
         "link": "https://www.zone-telechargement.irish/"
     },
+    {
+        "id": "W1233",
+        "title": "FrBoard",
+        "cover": "./warez/zt.png",
+        "altText": "FrBoard",
+        "link": "https://frboard.cc/"
+    },
 ]
 export const raccourcisDev = [
     {
