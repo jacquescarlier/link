@@ -13,7 +13,7 @@ const Header = () => {
                 style={{ cursor: "pointer" }}
             >
                 <a
-                    href="https://www.zone-telechargement.irish/"
+                    href="https://www.zone-telechargement.skin/"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{ display: "inline-block" }}
