@@ -124,6 +124,13 @@ export const raccourcisSvod = [
         "altText": "Disney",
         "link": "https://www.disneyplus.com/fr-fr"
     },
+     {
+        "id": "a1238",
+        "title": "YouTube2Mp3",
+        "cover": "./svod/youtube2mp3.webp",
+        "altText": "YouTube Mp3 paylist",
+        "link": "https://en.loader.to/4/"
+    },
 ]
 
 export const raccourcisAstuces = [
